@@ -1,0 +1,56 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+}
+
+.counter-circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #4caf50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#counter {
+    color: #fff;
+    font-size: 2em;
+}
+
+#increment-button {
+width:105px;
+height: 105px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color:#938525f8;
+    border-radius: 50%;
+}
+#reset-button{
+width:105px;
+height: 105px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    color: #93191f;
+    margin-top:10px;
+    background-color:#8d2f35;
+    color:#ffffff;
+    border-radius:50%;
+}
+h1{
+    color:#938525
+}
+
+
+/* Confetti styles */
+ .confetti
+  { position: fixed; top: 0; left: 0; width: 10px; height: 10px; background-color: #f0f0f0; opacity: 0.8; z-index: 9999; pointer-events: none; animation: fall linear   ; } @keyframes fall { to { transform: translateY(100vh); } }
